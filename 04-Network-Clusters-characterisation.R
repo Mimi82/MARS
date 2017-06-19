@@ -1,3 +1,18 @@
+# Spiec EASI
+#See https://github.com/zdk123/SpiecEasi for more info
+
+
+#Install all dependencies and packages to make it works 
+# Can take up to 30 min if you have nothing installed...
+#library (devtools)
+#library(BIOM.utils)# On my machine "biom" is not properly install with this package, hence I had to install the 2 following ones
+#library (RJSONIO)
+#library (biom) #Downloaded from old CRAN repository (https://cran.r-project.org/src/contrib/Archive/biom/), not maintained but it works and it is needed. 
+
+#Run the lines below only once
+#source ("http://bioconductor.org/biocLite.R")
+#biocLite("phyloseq")
+#install_github("zdk123/SpiecEasi")
 
 #library (SpiecEasi)
 #library (phyloseq)
