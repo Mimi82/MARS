@@ -1,5 +1,4 @@
-#MARS optics analyses
-#The idea is to try to do something like in Graeber et al 2012 or to get inspire by it at least#
+#MARS DOM optical properties analysis
 
 
 rm(list=ls(all=TRUE))
