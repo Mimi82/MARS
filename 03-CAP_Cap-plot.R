@@ -5,7 +5,7 @@
 
 ##############################################
 ############ Humin Feed ######################
-DOM.cap <- capscale(tab.norm~factor(as.numeric(env.data.MARS$HuminFeed)),dist="bray",sqrt.dist= TRUE)
+DOM.cap <- capscale(tab.norm~factor(as.numeric(env.data.MARS$Fmax1norm)),dist="bray",sqrt.dist= TRUE)
 summary(DOM.cap)
 
 anova.cca(DOM.cap)
